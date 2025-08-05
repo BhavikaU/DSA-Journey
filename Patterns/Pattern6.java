@@ -1,6 +1,6 @@
 package Patterns;
 import java.util.Scanner;   
-public class Patter6 {
+public class Pattern6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // Number of rows
