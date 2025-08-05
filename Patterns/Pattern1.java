@@ -1,8 +1,12 @@
 package Patterns;
 
+import java.util.Scanner;
+
 public class Pattern1 {
     public static void main(String[] args) {
-        int n = 5; // Number of rows
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(); // Number of rows 
+       // int n ; // Number of rows
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
